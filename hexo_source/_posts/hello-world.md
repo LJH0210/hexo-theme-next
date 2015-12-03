@@ -1,4 +1,5 @@
 title: Welcome to Hexo
+date: 2015-12-01
 tags: Hexo
 categories: Hexo
 ---
