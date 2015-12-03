@@ -61,7 +61,7 @@ $ cd D://Hexo
 
 $ hexo init //hexo初始化
 
-$ nmp install
+$ npm install hexo-deployer-git --save  
 ```
 
 # 安装 Hexo 主题
