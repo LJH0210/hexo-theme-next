@@ -6,15 +6,15 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "LJH"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
-  archives: /archives
   tags: /tags
+  archives: /archives
   #commonweal: /404.html
 
 
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -71,8 +71,8 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
-#sidebar: always
+#sidebar: post
+sidebar: always
 #sidebar: hide
 #sidebar: remove
 
@@ -92,7 +92,7 @@ social_icons:
 
 
 # Sidebar Avatar
-#avatar:
+avatar: /images/avater.png
 
 
 # Social links
@@ -143,7 +143,7 @@ scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
@@ -166,7 +166,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: ljh-duoshuo
 
 # Disqus
 #disqus_shortname:
