@@ -1,16 +1,13 @@
 title: '我在用的 Xcode 插件 '
 date: 2015-12-03 23:35:47
 tags: [Object-c,Xcode]
-categories: Object-c
+categories: Xcode
 ---
 
 # 插件过期解决方案
 
-1. 查看Xcode UUID 
-
-```
-	defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
-``` 
+1. 查看Xcode UUID     `   defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+`
 
 2. 用Xcode打开插件项目，将UUID添加进xxx-info.plist的DVTPlugInCompatibilityUUIDs即可。 
 
