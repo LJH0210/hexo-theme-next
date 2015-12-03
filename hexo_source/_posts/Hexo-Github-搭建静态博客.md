@@ -6,7 +6,7 @@ categories: Hexo
 # 环境
 ##  【安装git】
 
-``` bash
+``` 
 $ https://desktop.github.com
 ```
 
@@ -95,10 +95,11 @@ $ hexo start //开启本地调试：http://0.0.0.0:4000
 $ hexo generate -deploy //(hexo g -d)生成静态网页并发布到github
 ```
 
-## 【其它知识链接】
+# 【其它知识链接】
 [MarkDown Wiki链接](https://en.wikipedia.org/wiki/Markdown)
 [MarkDown 官网](http://www.markdown.cn/)
 [NexT 文档](http://theme-next.iissnan.com/)
+[Mou 下载](http://25.io/mou/)
 
 
 
