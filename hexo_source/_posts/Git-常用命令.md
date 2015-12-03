@@ -9,45 +9,45 @@ categories: github
 
 # 创建仓库
 
-复制一个已存在的仓库
+## 复制一个已存在的仓库
 
 ```
 $ git clone (giturl)
 ```
 
-新建本地仓库
+## 新建本地仓库
 	
 ```
 $ git init (本地仓库目录下)
 ```
 
 # 修改
-显示工作路径下已修改文件
+## 显示工作路径下已修改文件
 
 ```
 $ git status
 ```
 
-对比本地仓库和中央仓库代码文件
+## 对比本地仓库和中央仓库代码文件
 
 ```
 $ git diff
 ```
 
-标记需要commit的文件
+## 标记需要commit的文件
 
 ```
 $ git add   //标记所以已修改文件
 $ git add -p <file> //标记file文件
 ```
 
-commit
+## commit
 ```
 $ git commit -m <message> //提交已标记文件
 $ git commit -a  -m <message> //提交所有已修改文件
 ```
 
-将本地仓库push到远程仓库
+## 将本地仓库push到远程仓库
 
 ```
 $ git push
@@ -55,27 +55,27 @@ $ git push
 
 #分支标签
 
-列出所有分支标签
+## 列出所有分支标签
 
 ```
 $ git branch
 $ git tag
 ```
 
-基于当前分支创建分支、标签
+## 基于当前分支创建分支、标签
 
 ```
 $ git branch <new-branch>
 $ git tag <new-tag>
 ```
 
-切换分支标签
+## 切换分支标签
 
 ```
 $ git checkout <branch/tag>
 ```
 
-删除本地分支、标签
+## 删除本地分支、标签
 
 ```
 $ git branch -d <branch>
@@ -83,19 +83,19 @@ $ git tag -d <tag>
 ```
 
 
-同步远程仓库
+## 同步远程仓库
 
 ```
 $git pull
 ```
 
-合并指定分支到当前分支
+## 合并指定分支到当前分支
 
 ```
 $ git merge <branch>
 ```
 
-衍合指定分支到当前分支
+## 衍合指定分支到当前分支
 
 ```
 $ git rebase <branch>
@@ -103,31 +103,31 @@ $ git rebase <branch>
 
 # 远程操作
 
-查看远程版本库信息
+## 查看远程版本库信息
 
 ```
 $ git remote -v
 ```
 
-添加远程版本库
+## 添加远程版本库
 
 ```
 $ git remote add <remote> <url>
 ```
 
-从指定远程版本库获取代码
+## 从指定远程版本库获取代码
 
 ```
 $ git fetch <remote>
 ```
 
-从指定远程库下载代码及快速合并
+## 从指定远程库下载代码及快速合并
 
 ```
 $ git pull <remote> <branch>
 ```
 
-提交至指定远程库
+## 提交至指定远程库
 
 ```
 $ git push <remote> <branch>
